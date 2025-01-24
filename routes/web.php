@@ -7,7 +7,7 @@ use App\Http\Controllers\TemplateController;
 use App\Models\Category_User;
 use App\Models\UserResume;
 
-
+URL::forceScheme('https');
 // Front-end
 Route::get('/', function () {
     return view('index');
